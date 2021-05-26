@@ -85066,3 +85066,193 @@ body {
     left: 100px;
   }
 }
+
+
+.content-background{
+  background-color: #f3f6f9;
+}
+.custom-header{}
+.custom-header .top-bar{
+  background-color:#fff;
+  height: 60px;
+  display: flex;
+  align-items:center;
+  border-bottom:1px solid #ccc;
+}
+.custom-header .top-bar .item-top-bar{
+  display:flex; 
+  align-items: center;
+  justify-content:space-between;
+  direction: rtl;
+}
+.custom-header .top-bar .item-top-bar .options{
+  display:flex;
+  align-items:center;
+}
+.custom-header .top-bar .item-top-bar .options .letter-name{
+  width: 30px;
+  height: 30px; 
+  border-radius: 6px;
+  color:#fff;
+  background-color: #712D7D;
+  display : flex ; 
+  align-items: center;
+  justify-content:center;
+  margin-left:16px;
+  opacity: 50%;
+}
+.custom-header .top-bar .item-top-bar .options .name{
+
+}
+.custom-header .top-bar .item-top-bar .options .name span:first-child{
+  color:#ccc; 
+  font-size:12px
+}
+.custom-header .top-bar .item-top-bar .options .name span{
+  color:#712D7D;
+  font-weight: 600;
+}
+.custom-header .top-bar .item-top-bar .options .btn-holder{}
+.custom-header .top-bar .item-top-bar .options .btn-holder i{
+  color:#712D7D;
+}
+.custom-header .top-bar .item-top-bar .time{
+  font-weight: 600;
+}
+.custom-header .top-bar .item-top-bar .time .clock{
+  display: inline-flex;
+}
+.custom-header .top-bar .item-top-bar .time .clock span:first-child {
+  margin-left:4px;
+}
+.custom-header .top-bar .item-top-bar .time .date{
+  font-size:10px;
+}
+.access-level-holder{
+  padding-top: 30px;
+}
+.access-level-holder .input-holder{
+  width:100%;
+  background-color: #DADADA;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.access-level-holder .input-holder input{
+  width: 100%;
+  border:none; 
+  background:none; 
+  outline: none; 
+  padding : 12px; 
+}
+.access-level-holder .input-holder input::placeholder{
+
+}
+.access-level-holder .input-holder .form-select{
+  width: 100%;
+  border:none; 
+  outline: none; 
+  padding : 12px;
+}
+.border-ccc{
+  border:1px solid #ccc;
+}
+.access-menu-holder {
+  padding:30px 0;
+}
+.title-holder{
+  margin-bottom:30px
+}
+.title-holder h2 {
+  font-size:14px; 
+  font-weight:600;
+}
+.access-menus {}
+.access-menus .access-menu {}
+.access-menus .access-menu .inner{
+  width:90%;
+  display: flex;
+  align-items:center ;
+  justify-content:space-between;
+  padding:8px;
+  background-color: #fff;
+  border:1px solid #ccc;
+  border-radius:10px;
+  margin-bottom:30px;
+}
+.access-menus .access-menu .inner .right{
+  display: flex;
+  align-items:center ;
+}
+.access-menus .access-menu .inner .right .access-icon{
+  width: 25px;
+  margin-right:8px;
+}
+.access-menus .access-menu .inner .right .access-icon img{
+  width:100%;
+}
+.access-menus .access-menu .inner .right .access-name{
+  font-size:16px;
+}
+.access-menus .access-menu .inner .left{
+  
+}
+.access-menus .access-menu .inner .left .checkbox-holder{
+  display: flex;
+  align-items:center ;
+} 
+.access-menus .access-menu .inner .left .checkbox-holder .form-check-input{
+    position: initial !important;
+    margin-top: 0 !important ;
+    margin-left: 0 !important;  
+} 
+.sticky-toolbar{
+  display:none !important;
+}
+.accordion-access-menu{
+  
+}
+.accordion-access-menu .information{
+ display: flex;
+ align-items: center;
+ position: relative;
+ left:30px;
+}
+.accordion-access-menu .information .icon{
+  width:25px;
+  margin-right: 8px;
+}
+.accordion-access-menu .information .icon img{
+  width:100%
+}
+.accordion-access-menu .information .name{
+
+}
+.accordion-button::after {
+  background-image: url('../Icon/poly.png') !important;
+  width: 10px !important;
+  height: 10px !important;
+  background-size: contain !important;
+  position: absolute;
+  top:50%;
+  left:16px;
+
+}
+.accordion-button:not(.collapsed)::after {
+  position: absolute;
+  top: 16px;
+}
+.accordion-button{
+  padding:8px !important;
+}
+.accordion-body .inner {
+  margin-bottom:0 !important;
+  padding: 6px 8px !important;
+  background-color:#e0e0e0 !important;
+}
+.accordion-body .inner .right .access-name{
+  font-size:12px !important;
+  font-weight: 600;
+}
+.accordion-body .inner .left .checkbox-holder .form-check-input{
+  background-color:#e0e0e0 !important;
+}
